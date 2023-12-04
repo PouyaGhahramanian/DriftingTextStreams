@@ -62,7 +62,7 @@ class Drifter(object):
     def increase_prob(self, start, intensity):
         # Linear Increase
         if self.drift_func == 'linear':
-            return min((self.timestep - start) * intensity, 1.0)
+            return max((self.timestep - start) * intensity, 1.0)
         # Sigmoid Increase
         else:
             drift_mid = start + 2/intensity
@@ -71,7 +71,7 @@ class Drifter(object):
     def decrease_prob(self, start, intensity):
         # Linear Decrease
         if self.drift_func == 'linear':
-            return max(1.0 - (self.timestep - start) * intensity, 0.0)
+            return min(1.0 - (self.timestep - start) * intensity, 0.0)
         # Sigmoid Decrease
         else:
             drift_mid = start + 2/intensity
