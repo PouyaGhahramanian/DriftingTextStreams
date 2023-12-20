@@ -1,6 +1,6 @@
 # DriftingTextStreams
 
-Welcome to DriftingTextStreams, a repository dedicated to the development of tools for creating and visualizing evolving text streams with induced concept drift in text classification datasets. This project, supported by Tübitak under grant 122E271, is currently in progress and aims to provide valuable resources for researchers and practitioners in the field.
+DriftingTextStreams is a project dedicated to developing tools for creating and visualizing evolving text streams with induced concept drift in text classification datasets. This project, supported by Tübitak under grant 122E271, is currently in progress and aims to provide valuable resources for researchers and practitioners in the field.
 
 ## Overview
 
