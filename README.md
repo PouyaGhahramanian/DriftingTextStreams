@@ -2,6 +2,35 @@
 
 DriftingTextStreams is a project dedicated to developing tools for creating and visualizing evolving text streams with induced concept drift in text classification datasets. This project, supported by Tübitak under grant 122E271, is currently in progress and aims to provide valuable resources for researchers and practitioners in the field.
 
+## Citation
+If you use our work in your research, please cite it as follows:
+
+_BibTeX entry_
+
+@article{10.1145/3639054,
+author = {Ghahramanian, Pouya and Bakhshi, Sepehr and Bonab, Hamed and Can, Fazli},
+title = {A Novel Neural Ensemble Architecture for On-the-fly Classification of Evolving Text Streams},
+year = {2024},
+issue_date = {May 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {18},
+number = {4},
+issn = {1556-4681},
+url = {https://doi.org/10.1145/3639054},
+doi = {10.1145/3639054},
+journal = {ACM Trans. Knowl. Discov. Data},
+month = feb,
+articleno = {101},
+numpages = {24},
+keywords = {Data stream mining, concept drift, text stream classification, ensemble methods, neural networks}
+}
+
+_Formatted Citation_
+
+Pouya Ghahramanian, Sepehr Bakhshi, Hamed Bonab, and Fazli Can. 2024. A Novel Neural Ensemble Architecture for On-the-fly Classification of Evolving Text Streams. ACM Trans. Knowl. Discov. Data 18, 4, Article 101 (May 2024), 24 pages. https://doi.org/10.1145/3639054
+
+
 ## Overview
 
 DriftingTextStreams focuses on providing scripts that enable the creation of text streams with concept drift from existing text classification datasets and tools for visualizing the distribution of concept drift in these streams.
